@@ -1,0 +1,30 @@
+<view class='box' hidden="{{idz!=0}}">
+  <view class='title'>{{titles}}</view>
+  <image src='{{srcs}}'></image>
+  <view class='txt'>{{txtes[0]}}</view>
+</view>
+<view class='box' hidden="{{idz!=1}}">
+  <view class='title'>{{titles}}</view>
+  <image src='{{srcs}}'></image>
+   <view class='txt'>{{txtes[1]}}</view>
+</view>
+<view class='box' hidden="{{idz!=2}}">
+  <view class='title'>{{titles}}</view>
+  <image src='{{srcs}}'></image>
+  <view class='txt'>{{txtes[2]}}</view>
+</view>
+<view class='box' hidden="{{idz!=3}}">
+  <view class='title'>{{titles}}</view>
+  <image src='{{srcs}}'></image>
+  <view class='txt'>{{txtes[3]}}</view>
+</view>
+<view class='box' hidden="{{idz!=4}}">
+  <view class='title'>{{titles}}</view>
+  <image src='{{srcs}}'></image>
+  <view class='txt'>{{txtes[4]}}</view>
+</view>
+<view class='box' hidden="{{idz!=5}}">
+  <view class='title'>为什么古猿能进化成人，而现代类人猿不行？</view>
+  <image src='https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=3f257f79a818972ba33a07ccdef61cb4/9213b07eca806538e3e4e77e94dda144ad348255.jpg'></image>
+  <view class='txt'>{{txtes[5]}}</view>
+</view>

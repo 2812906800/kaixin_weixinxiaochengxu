@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/center/center",
+    "pages/hot/hot",
+    "pages/baike/baike",
+    "pages/search/search"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "搜狗百科"
+    
+  }
+}

@@ -1,0 +1,54 @@
+<view class='gd'>
+  <view class="search"><text wx:for="{{searchList}}" class='{{num==index?"active":""}}'  data-idx="{{index}}"  bindtap="navTap">{{item}}</text><image bindtap='searchKeys' src='/img/search.png'></image></view>
+</view>
+<view class='hot' hidden="{{num!=0}}">
+  <view class='bigbox' bindtap='hotTxt'  data-idz='{{5}}'>
+    <image src='https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/w%3D268%3Bg%3D0/sign=3f257f79a818972ba33a07ccdef61cb4/9213b07eca806538e3e4e77e94dda144ad348255.jpg'></image>
+    <view>为什么古猿能进化成人，而现代类人猿不行？</view>
+    <view class='user'><image src='/img/look.png'></image>9856 <image class='kongge' src='/img/zhuanfa.png'></image>224</view>
+    <view class='time'>1月23日 今日</view>
+    <view class='keyd'>古猿</view>
+  </view>
+  <view class='cont' bindtap='hotTxt' wx:for="{{txtList}}"  data-idz='{{index}}' data-title='{{item.title}}' data-src='{{item.src}}'>
+    <view class='left'>
+      <view class='name'>{{item.name}}</view>
+      <view class='title'>{{item.title}}</view>
+      <view class='user'><image src='/img/look.png'></image><text>{{item.look}}</text> <image class='kongge' src='/img/zhuanfa.png'></image><text>{{item.zhuanfa}}</text></view>
+    </view>
+    <view class='right'><image src='{{item.src}}'></image></view>
+    
+  </view>
+
+
+</view>
+<view class='hot' hidden="{{num!=1}}">
+ <view class='bigbox'>
+    <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2448008321,2792332044&fm=15&gp=0.jpg'></image>
+  </view>
+  <view class='cont' bindtap='baikeTxt' wx:for="{{hotList}}" data-idy='{{index}}' data-title='{{item.title}}' data-src='{{item.src}}'>
+    <view class='left'>
+      <view class='name'>{{item.name}}</view>
+      <view class='title'>{{item.title}}</view>
+      <view class='user'><image src='/img/look.png'></image><text>{{item.look}}</text> <image class='kongge' src='/img/zhuanfa.png'></image><text>{{item.zhuanfa}}</text></view>
+    </view>
+    <view class='right'><image src='{{item.src}}'></image></view>
+  </view>
+
+
+</view>
+<button bindtap='fenxiang' size='mini'>分享给朋友</button>
+<view class='allbox' catchtap='fanhui'  hidden='{{flage}}'>
+  <view class='fenxiang'> 
+  <view>分享</view>
+  <view class='tl'>
+    <view class='left'>
+      <image src='/img/haibao.png' />
+      <text>生成分享海报</text>
+    </view>
+    <view class='right'>
+      <image src='/img/weixin.png' />
+      <text>转发给好友</text>
+    </view>
+  </view>
+</view>
+</view>

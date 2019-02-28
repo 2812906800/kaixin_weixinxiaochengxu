@@ -1,0 +1,30 @@
+<view class='box' hidden="{{idy!=0}}">
+  <view class='title'>{{title}}</view>
+  <image src='{{src}}'></image>
+  <view class='active'>【玩梗】</view>
+  <view class='txt'>{{txt[0]}}</view>
+</view>
+<view class='box'  hidden="{{idy!=1}}">
+  <view class='title'>{{title}}</view>
+  <image src='{{src}}'></image>
+  <view class='active'>【玩梗】</view>
+  <view class='txt'>{{txt[1]}}</view>
+</view>
+<view class='box'  hidden="{{idy!=2}}">
+  <view class='title'>{{title}}</view>
+  <image src='{{src}}'></image>
+  <view class='active'>【玩梗】</view>
+  <view class='txt'>{{txt[2]}}</view>
+</view>
+<view class='box'  hidden="{{idy!=3}}">
+  <view class='title'>{{title}}</view>
+  <image src='{{src}}'></image>
+  <view class='active'>【玩梗】</view>
+  <view class='txt'>{{txt[3]}}</view>
+</view>
+<view class='box'  hidden="{{idy!=4}}">
+  <view class='title'>{{title}}</view>
+  <image src='{{src}}'></image>
+  <view class='active'>【玩梗】</view>
+  <view class='txt'>{{txt[4]}}</view>
+</view>

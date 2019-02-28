@@ -1,0 +1,4 @@
+<view class='search'>
+<input focus="true" confirm-type="search" placeholder-style="font-size:14px;" placeholder='输入想要查看的百科词条' value="{{str}}" />
+<image bindtap='quxiao' src='/img/quxiao.png'></image>
+</view>
